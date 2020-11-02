@@ -2364,10 +2364,21 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+	#phonewords {
+		position: absolute;
+		top: 10%;
+  		left: 60%;
+		color: black;
+	}
+	
+	#phonecontainer {
+		position: relative;
+  		text-align: center;
+	}
+
 /* One */
 
 	#one {
-		/* background: url("images/overlay.png"), url("../../images/one.jpg"); */
 		background-color: #fabfa6;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2377,11 +2388,15 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		/* background: url("images/overlay.png"), url("../../images/two.jpg"); */
 		background-color: #FC9C73;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		text-align: center;
+	}
+
+	#slides {
+		border: none;
 	}
 
 /* Contact */
