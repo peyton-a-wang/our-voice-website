@@ -1219,9 +1219,9 @@ input, select, textarea {
 			padding: 0 0 0.5em 0;
 		}
 
-	footer {
-		margin-top: 2em;
-	}
+	/* footer {
+		margin-top: 1em;
+	} */
 
 /* Table */
 
@@ -2366,9 +2366,14 @@ input, select, textarea {
 
 	#phonewords {
 		position: absolute;
-		top: 10%;
-  		left: 60%;
+		top: 12%;
+  		left: 64.5%;
 		color: black;
+		font-size: 1.3em;
+	}
+
+	#phonewords > a {
+		color: #34D1B6;
 	}
 	
 	#phonecontainer {
@@ -2397,6 +2402,19 @@ input, select, textarea {
 
 	#slides {
 		border: none;
+	}
+
+/* Values */
+	#values {
+		background-color: #fabfa6;
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#values .content.box.style2 {
+		width: 50%;
+		max-width: 100%;
 	}
 
 /* Contact */
