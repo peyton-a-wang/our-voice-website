@@ -1338,7 +1338,7 @@ input, select, textarea {
 			content: '';
 			position: absolute;
 			width: 96px;
-			height: 64px;
+			height: 30px;
 			background: url("images/poptrox-nav.svg");
 			top: calc(50% - 1.5em);
 			margin: -32px 0 0 0;
@@ -1885,6 +1885,17 @@ input, select, textarea {
 			cursor: default;
 		}
 
+		@media screen and (max-width: 736px) {
+			#logo{
+				position: absolute;
+				top: 0.7em;
+				line-height: 3em;
+				cursor: default;
+			}
+		}
+
+
+
 			#header h1 a {
 				font-size: 1.25em;
 			}
@@ -2229,12 +2240,13 @@ input, select, textarea {
 		/* padding-left: 10px; */
 		}
 	}
-
-.leftbox, .middlebox, .rightbox {
-	width: 33%;  
-	padding-left: 60px;
-	text-align: left;
-}
+	@media screen and (min-width: 848px) {
+		.leftbox, .middlebox, .rightbox {
+			width: 33%;  
+			padding-left: 60px;
+			text-align: left;
+		}
+	}
 
 	.boxes p { 
 		font-size: 0.8em;
@@ -2470,6 +2482,20 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	@media screen and (max-width: 764px) {
+		#one h2 {
+			font-size: 65px;
+		}
+
+		#one h3 {
+			padding-bottom: 30px;
+			font-size: 50px;
+		}
+		#one p {
+			padding-bottom: 30px;
+		}
+	}
+
 /* Two */
 
 	#two {
@@ -2480,21 +2506,93 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	#slides {
-		border: none;
+	@media screen and (max-width: 764px) {
+		#two h2 {
+			font-size: 65px;
+		}
+
+		#two h4 {
+			margin-bottom: 20px;
+		}
 	}
 
+	iframe {
+		border: none;
+		/* display: block; */
+	}
+
+	#slides {
+		/* display: flex; */
+		width: 800px;
+		height: 479px;
+	}
+
+	@media screen and (max-width: 900px) {
+		#slides {
+			width: 600px;
+			height: 367px;
+		}
+	}
+
+	@media screen and (max-width: 630px) {
+		#slides {
+			width: 450px;
+			height: 282px;
+		}
+	}
+
+	@media screen and (max-width: 470px) {
+		#slides {
+			width: 300px;
+			height: 198px;
+		}
+	}
+
+	
+
+/* Team */
+	@media screen and (max-width: 764px) {
+		#work h2 {
+			font-size: 65px;
+		}
+	}
+
+	@media screen and (max-width: 848px) {
+		#work p {
+			margin-bottom: 60px;
+		}
+	}
+
+
 /* Values */
+
 	#values {
 		background-color: #fabfa6;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+	@media screen and (max-width: 764px) {
+		.row {
+			padding-bottom: 50px;
+		}
+	}
 
-	#values .content.box.style2 {
-		width: 50%;
-		max-width: 100%;
+	@media screen and (min-width: 737px) {
+		#values .content.box.style2 {
+			width: 60%;
+			max-width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 737px) {
+		#values h2 {
+			font-size: 65px;
+		}
+		#values.main.style2 {
+			padding: 0 15px 0 15px;
+			height: 0;
+		}
 	}
 
 /* Contact */
