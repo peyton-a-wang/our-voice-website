@@ -3,8 +3,9 @@ A mobile application aiming to build mental and physical resilence in young acti
 
 ## About
 * [Official Website](https://www.ovtakeaction.com/)
-* [Company Website](https://github.com/our-voice/company-website)
+* [Company Website](https://our-voice.github.io/company-website/)
 * [Facebook](https://www.facebook.com/ourvoicemobileapp/)
+* [Instagram](https://www.instagram.com/ovtakeaction/)
 * [LinkedIn](https://www.linkedin.com/company/our-voice-mobile-app/)
 * [HCI Course Project Milestones](http://cs.wellesley.edu/~ourvoice/home.html)
 
