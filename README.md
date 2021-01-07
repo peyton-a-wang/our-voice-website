@@ -8,6 +8,6 @@ A mobile application aiming to build mental and physical resilence in young acti
 * [HCI Course Project Milestones](http://cs.wellesley.edu/~ourvoice/home.html)
 
 ## Team
-* Emily Pattison - CEO
-* Anandita Jha - COO
+* Emily Pattison [(epattiso21)](https://github.com/epattiso21) - CEO
+* Anandita Jha [(ana-jha-19)](https://github.com/ana-jha-19) - COO
 * Peyton Wang [(peyton-a-wang)](https://github.com/peyton-a-wang) - VP of Development
