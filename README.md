@@ -3,7 +3,7 @@ A mobile application aiming to build mental and physical resilence in young acti
 
 ## About
 * [Official Website](https://www.ovtakeaction.com/)
-* [Company Website](https://peyton-a-wang.github.io/our-voice-website/)
+* [Company Website](https://github.com/our-voice/company-website)
 * [Facebook](https://www.facebook.com/ourvoicemobileapp/)
 * [LinkedIn](https://www.linkedin.com/company/our-voice-mobile-app/)
 * [HCI Course Project Milestones](http://cs.wellesley.edu/~ourvoice/home.html)

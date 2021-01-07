@@ -2589,10 +2589,18 @@ input, select, textarea {
 		#values h2 {
 			font-size: 65px;
 		}
+
+		#values h5 {
+			padding-bottom: 20px;
+		}
+
 		#values.main.style2 {
 			padding: 0 15px 0 15px;
 			height: 0;
 		}
+
+		#values .row {
+			padding-bottom: 0px;
 	}
 
 /* Contact */
